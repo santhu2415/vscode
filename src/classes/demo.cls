@@ -15,7 +15,7 @@ public class demo {
            update opplist;
        }
        system.debug('hi'+opplist);*/
-       query account records created last week .now update phonr number of all accounts with 1234567890 value.
+     //  query account records created last week .now update phonr number of all accounts with 1234567890 value.
           List<account> acc =[SELECT Id, Name FROM Account where createdDate = THIS_WEEK ];
        if(!acc.isEmpty()){
            for(account ac :acc){
